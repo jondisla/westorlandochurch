@@ -1,0 +1,229 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: 'Raleway', sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/****************************************************/
+.header{
+	margin: 20px;
+	position: fixed;
+}
+
+.top-header{
+}
+
+.logopic{
+	position: absolute;
+	top: 3%;
+}
+
+.top-header p{
+	position: relative;
+	text-align: center;
+	font-size: 3.5vw;
+	left: 25%;
+	font-family: 'Raleway', sans-serif;
+	text-shadow: 2px 2px #423f3f;
+}
+
+/****************************************************************/
+.top-bar{
+	position: relative;
+	display: inline-block;
+	margin-top: 250px;
+	background-color: rgb(69, 93, 165);
+	padding-bottom: 20px;
+	padding-top: 20px;
+	width: 100%;
+	border-bottom: 2px solid rgb(85, 84, 84);
+
+}
+
+.top-menu li{
+	position: relative;
+	display: inline-block;
+	font-size: 20px;
+	padding-left: 30px;
+	text-decoration: none;
+	color: white;
+	
+}
+.search{
+	float: right;
+}
+
+
+.search-box{
+	display: inline-block;
+	font-size: 70px;
+	text-align: right;
+}
+
+.searchicon{
+	position: relative;
+	display: inline-block;
+	color: white;
+	padding-right: 10px;
+}
+/*******************************************************************/
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+	min-height: 100%;
+	opacity: .5;
+	z-index: -1;
+}
+.mainbody{
+	position: relative;
+	display: block;
+	background-color: white;
+}
+/* 
+
+.mainbody video{
+	position: fixed;
+	display: block;
+	width: 100%;
+	opacity: .5;
+} */
+.bodycontent{
+	position: relative;
+	width: 70%;
+	left: 15%;
+}
+
+
+.bodycontent li{
+	display: inline-block;
+	padding: 10px;
+}
+
+.bodycontent 
+
+.message-area{
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	background: white;
+}
+
+.whitesuite{
+	position: relative;
+	display: inline-block;	
+}
+
+.message{
+	top:1%;
+	position: absolute;
+	display: block;
+}
+
+.message p{
+	display: inline-block;
+	font-size: 20px;
+	position: relative;
+}
+
+.blueLinkTag{
+	position: relative;
+	width: 30%;
+	color: white;
+	background-color: rgb(69, 93, 165);
+	font-weight: bold;
+	top: -70px;
+	padding-top: 5px;
+	padding-bottom: 8px;
+	left: 10px;
+	text-align: center;
+}
+
+.churchpic{
+	margin-left: auto;
+	display: block;
+	object-fit: cover;
+	width: 470px;
+	height: 258px;
+}
+
+.givingPic{
+	height: 258px;
+	width: 480px;
+	object-fit: cover;
+}
+
+.thrdsec{
+	position: relative;
+	top: -40px;
+}
+
+.event1{
+	position: relative;
+	width: 470px;
+	height: 500px;
+	display: inline-block;
+
+}
+
+.watchLivePic{
+	position: relative;
+	width: 480px;
+	margin-left: auto;
+	filter: brightness(70%);
+	display: inline-block;
+}
+
+.watchNow{
+	position: relative;
+	color: white;
+	font-weight: bold;
+	top: -60px;
+	font-size: 20px;
+	left: 10px;
+}
